@@ -5,6 +5,9 @@
 
 This repository contains the official implementation code for the paper **"MASER: Enhancing EEG Spatial Resolution With State Space Modeling"** published in IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2024.
 
+
+![MASER Pipeline](imgs/pipeline.png)
+
 ## Project Highlights
 
 - **🎯 Novel SSM Architecture**: First work to introduce State Space Models (SSMs) for EEG spatial super-resolution, pioneering EEG-oriented state space modeling
