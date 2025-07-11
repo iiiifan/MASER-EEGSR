@@ -60,15 +60,17 @@ Note: Some packages may require additional system dependencies. If you encounter
 4. Special Installation Instructions:
 
 Please follow the official installation instructions for these packages:
-- [`causal_conv1d`](https://github.com/Dao-AILab/causal-conv1d/releases/)
-- [`mamba_ssm`](https://github.com/state-spaces/mamba/releases)
+- [causal_conv1d](https://github.com/Dao-AILab/causal-conv1d/releases/)
+- [mamba_ssm](https://github.com/state-spaces/mamba/releases)
 
 These packages may require a Linux environment and additional system dependencies. Please ensure you're using a compatible system and have the necessary build tools installed.
 
 
 ## Quick Start
 
-To run the example inference code:
+1. First download the [test data](https://drive.google.com/file/d/1aJSEMKBU_RT7-L8h1iNJ24q-NNCUswpX/view?usp=sharing) and place it in `maser_code/data/test_data.dat`
+
+2. To run the example inference code:
 ```commandline
 python inference.py
 ```
@@ -91,5 +93,5 @@ If you use this code in your research, please cite our paper:
 ```
 
 ## Acknowledgments
-- **Datasets**: [`SEED Emotion Database (SJTU)`](https://bcmi.sjtu.edu.cn/home/seed/), [`PhysioNet Motor Movement/Imagery Database`](https://physionet.org/content/eegmmidb/1.0.0/)
+- **Datasets**: [SEED Emotion Database (SJTU)](https://bcmi.sjtu.edu.cn/home/seed/), [PhysioNet Motor Movement/Imagery Database](https://physionet.org/content/eegmmidb/1.0.0/)
 - **Funding**: STI 2030-Major Projects (2022ZD0208903), National Natural Science Foundation of China (62036013, 62006239, 61722313), Science and Technology Innovation Program of Hunan Province (2023RC1004)
